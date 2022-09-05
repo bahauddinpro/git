@@ -1,0 +1,256 @@
+/* body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+} */
+
+img{
+    max-width: 100%;
+}
+
+.jon-header span {
+    color: white;
+    background: blueviolet;
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+}
+
+
+.jon-menu .nav-link {
+    margin-right: 40px;
+}
+
+.slider-section{
+    background: url(images/img/mbr-10.jpg) no-repeat center center ;
+    padding: 150px 0px;
+    position: relative;
+    z-index: 2;
+    
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+   
+
+
+
+
+}
+.slider-caption h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.slider-caption h2{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.slider-caption .btn {
+    background: #5ba533;
+    font-weight: 600;
+    padding: 15px 70px;
+    border: none;
+}
+.slider-caption .btn:hover{
+     background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+    
+}
+
+.slider-caption .form-control {
+    border: 1px solid #5bea5b;
+    padding: 15px;
+}
+.slider-caption .form-control:focus{
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* number counter */
+.no-item .h2{
+    font-size: 50px;
+}
+.no-item p{
+    font-size: 20px;
+}
+
+/* --- */
+.active-goals{
+background-color:azure;
+}
+.text-section {
+    margin-top: 150px;
+}
+.text-img {
+    padding: 30px 0px;
+}
+
+
+/* ---- */
+.feature-item{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.21);
+
+}
+.left-images{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.left-images img {
+    height: 100%;
+    width: auto! important;
+    max-width: inherit;
+    position: relative;
+    left: -70px;
+
+
+}
+.right-text{
+    width: 60%;
+    padding: 15px;
+}
+
+
+#mrb-8{
+    left: -15%;
+}
+#mrb-5{
+    left: -138%;
+}
+.portfolio-item{
+    width: 350px;
+    height: 250px;
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(124, 35, 226, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* card */
+.card-section{
+    background: #f3f3f3;
+}
+
+.card-body h5 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.card-body h6 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pricing-item ul{
+    padding: 0px;
+    color: #3f3f3f;
+}
+.pricing-item ul li{
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 25px;
+}
+.pricing-item ul li span{
+    padding-right: 15px;
+    color: #6278df;
+    font-size: 35px;
+    display: inline-block;
+}
+.pricing-button a{
+    color: #6278df;
+    border-color: #6278df;
+    font-size: 25px;
+    padding: 10px 35px;
+    font-weight: bold;
+}
+.pricing-button a:hover{
+    color: white;
+    background-color: #6278df;
+}
+.pricing-section {
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.21);
+}
+
+.author-info {
+    width: 200px;
+    margin: auto;
+}
+.author-info img{
+    width: 60px;
+    transition: .3s;
+}
+.author-info img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.user-details p {
+    margin-right: 85px;
+    position: relative;
+    top: -10px;
+}
+
+.card-section img{
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: 60px;
+    z-index: 2;
+    transition: .3s;
+    
+}
+.card-section img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.form-section button {
+    font-size: 25px;
+    font-weight: 700;
+    color:#6278df;
+    background: none;
+}
+.form-section input:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.form-section textarea:focus{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
